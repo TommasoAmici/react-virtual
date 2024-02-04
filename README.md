@@ -20,6 +20,10 @@ This work is partially based on the following article:
 
 - <https://dev.to/mr_mornin_star/create-a-react-virtualizationwindowing-component-from-scratch-54lj>
 
+## Demo
+
+https://github.com/TommasoAmici/react-virtual/assets/424525/4b441bd5-dcd6-496e-bf8f-fd10f3bc1cf6
+
 ## Getting Started
 
 Install dependencies:
