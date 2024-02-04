@@ -1,0 +1,20 @@
+{
+  "name": "react-virtualization-example",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bun build ./index.tsx --outdir ./out --target browser",
+    "dev": "bun run build --watch",
+    "serve": "bunx serve"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-virtualization": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5.3.3"
+  }
+}

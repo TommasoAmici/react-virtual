@@ -1,0 +1,46 @@
+<html>
+  <style>
+    .app {
+      padding: 24px;
+    }
+
+    .app .example {
+      width: 500px;
+    }
+
+    li.item {
+      height: 20px;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      gap: 16px;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    li.item.virtual {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    li.item img {
+      height: 20px;
+      width: 40px;
+    }
+
+    .container {
+      height: 500px;
+      border: 1px solid #ccc;
+      overflow: scroll;
+      position: relative;
+      isolation: isolate;
+      contain: strict;
+      resize: both;
+    }
+  </style>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./out/index.js"></script>
+  </body>
+</html>

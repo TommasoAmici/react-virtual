@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "example"
+    ]
+  }
+}
